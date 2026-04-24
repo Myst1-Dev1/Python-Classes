@@ -319,3 +319,62 @@ Ex: 0>100,.1f
 Conversion flags - !r !s !a
 
 ---
+
+# Fatiamento de strings
+
+012345678
+OLá mundo
+-987654321
+Fatiamento [i:f:p] [i:]
+Obs.: a função len retorna a qtd de caracteres da string
+
+variavel = 'Olá mundo'
+print(len(variavel))
+
+---
+
+# Introdução ao try/except
+
+try -> tentou executar o código
+except -> ocorreu algum erro ao executar o código
+
+numero_string = input('Vou dobrar o número que você digitar: ')
+
+try:
+    numero_int = int(numero_string)
+    print(f'O dobro de {numero_int} é {numero_int * 2}')
+except:
+    print('Isso não é um número inteiro válido.')
+
+---
+
+# CONSTANTE = 'Variaveis' que não vão mudar
+Muitas condições no mesmo if (ruim)
+    <- contagem de complexidade (ruim)
+
+velocidade = 61
+local_carro = 99
+
+
+RADAR_1  = 60
+LOCAL_1 = 100
+RADAR_RANGE = 1
+
+vel_carro_pass_radar_1 = velocidade > RADAR_1
+carro_multado_radar_1 = local_carro >= (LOCAL_1 - RADAR_RANGE) and local_carro <= (LOCAL_1 + RADAR_RANGE)
+
+if vel_carro_pass_radar_1:
+    print('Velocidade do carro passou do radar 1')
+
+if carro_multado_radar_1 and vel_carro_pass_radar_1:    
+    print('Carro multado em radar 1')
+
+---
+
+# Flag (bandeira) - Marcar um local
+None = não valor
+is e is not = é ou não é (tipo, valor, identidade)
+id = Identidade
+
+
+---
