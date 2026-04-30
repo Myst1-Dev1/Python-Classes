@@ -376,5 +376,79 @@ None = não valor
 is e is not = é ou não é (tipo, valor, identidade)
 id = Identidade
 
+---
+
+# Repetições While (enquanto) executa uma ação enquanto um condição for verdadeira
+
+contador = 0
+
+while contador <= 5:
+    print(f'Contagem: {contador}')
+    contador += 1
+
+print('Fim do programa')
+
+qtd_linhas = 5
+qtd_colunas = 5
+
+linha = 1
+
+while linha <= qtd_linhas:
+    coluna = 1
+    print(linha)
+
+    while coluna <= qtd_colunas:
+        print(f'Linha {linha} - Coluna {coluna}')
+        coluna += 1
+
+    linha += 1
+
+print('Acabou o loop')
 
 ---
+
+# Operadores de atribuição + += -= *= /= //= %=
+
+contador = 0
+
+while contador <= 100:
+    contador += 1
+
+    if contador == 6:
+        continue # Pula a iteração atual e continua para a próxima
+
+    print(f'Contagem: {contador}')
+
+    if contador == 40:
+        break # Interrompe o loop
+
+---
+
+# while/else
+
+string = 'Valor qualuer'
+
+i = 0
+
+while i < len(string):
+    letra = string[i]
+
+    print(letra)
+
+    i += 1
+else:
+    print('Cheguei no else')
+
+---
+
+# introducao ao for / in
+
+texto = 'python'
+novo_texto = ''
+
+for letra in texto:
+    novo_texto += f'*{letra}'
+print(novo_texto)
+
+---
+

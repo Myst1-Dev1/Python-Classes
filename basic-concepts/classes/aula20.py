@@ -5,9 +5,9 @@ is e is not = é ou não é (tipo, valor, identidade)
 id = Identidade
 """
 
-v1 = 'a'
-v2 = 'b'
-print(id(v1))
+# v1 = 'a'
+# v2 = 'b'
+# print(id(v1))
 
 # Condição == false
 
@@ -15,3 +15,4 @@ print(id(v1))
 #    print('faça algo')
 # else:
 #    print('faça outra coisa')
+
