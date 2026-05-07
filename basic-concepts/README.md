@@ -469,6 +469,77 @@ iter -> me entregue seu iterador
 
 ---
 
+# Listas em python
+tipo list -> Mutável
+Suporta vários valores de qualquer tipo
+Conhecimentos reutilizaveis -> indice e fatiamento
+Métodos uteis -> append, insert, pop, del, clear, extend, +
+                Create, Read, Update, Delete
 
+lista = ['pão', 'leite', 'frutas', 'carne', 'verduras']
+print(lista)
+lista.append('ovos')  # Adiciona um item no final da lista'
+print(lista)
+lista.insert(0, 'água')  # Adiciona um item no indice especificado
+print(lista)
+lista.pop(3)  # Remove o item do indice especificado
+print(lista)
+del lista[2]  # Remove o item do indice especificado
+print(lista)
+lista.clear()  # Limpa a lista
+print(lista)
+
+extend -> extende a lista
++ - concatena listas
+
+lista_a = [1, 2, 3]
+lista_b = [4, 5, 6]
+lista_c = lista_a + lista_b  # Concatena as listas
+print(lista_c)
+
+lista_a.extend(lista_b)  # Extende a lista_a com os itens da lista_b
+print(lista_a)
+
+---
+
+# Introdução ao desempacotamento
+
+nomes = ['Maria', 'Helena', 'Luiz']
+nome1, nome2, nome3 = nomes
+print(nome2)
+
+_,_, nome2, *resto = ['Maria', 'Helena', 'Luiz', 'João', 'Eduardo']
+print(nome2)
+
+---
+
+# Tipo Tupla -> uma lista imutável, ou seja, não pode ser alterada.
+As tuplas são representadas por parênteses () e os elementos são separados por vírgulas.
+
+nomes = ('Maria', 'Helena', 'Luiz')
+print(nomes[1])
+
+---
+
+# Enumerate -> enumera iteráveis(indices)
+
+lista = ['Maria', 'Helena', 'Luiz']
+for indice, nome in enumerate(lista):
+    print(indice, nome)
+
+---
+
+# split e join com list e str
+
+split - divide uma string
+join - une uma string
+
+frase = 'Olha só que coisa mais linda mais cheia de graça é ela menina'
+lista_palavras = frase.split(',') # split() - por padrão, ele divide a string em cada espaço em branco
+print(lista_palavras)
+
+frases_unidas = '-'.join('abc'); # join() - junta os elementos de uma 
+# lista em uma string, usando um separador especificado (neste caso, '-')
+print(frases_unidas)
 
 ---
