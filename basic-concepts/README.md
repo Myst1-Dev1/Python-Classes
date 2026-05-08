@@ -543,3 +543,9 @@ frases_unidas = '-'.join('abc'); # join() - junta os elementos de uma
 print(frases_unidas)
 
 ---
+
+# Operação ternária em Python (if else de uma linha)
+
+
+
+---
