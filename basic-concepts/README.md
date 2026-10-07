@@ -546,6 +546,9 @@ print(frases_unidas)
 
 # Operação ternária em Python (if else de uma linha)
 
+idade = 18
+status = "Maior de idade" if idade >= 18 else "Menor de idade"
 
+print(status)  # Saída: Maior de idade
 
 ---
