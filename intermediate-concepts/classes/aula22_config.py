@@ -1,0 +1,3 @@
+# config.py
+VERSAO_SISTEMA = "1.0"
+MODO_MANUTENCAO = False
