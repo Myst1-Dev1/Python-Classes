@@ -1,0 +1,15 @@
+[
+    {
+        "servidor": "Web",
+        "ip": "192.168.0.1",
+        "status_ativo": true,
+        "alertas": 0
+    },
+    {
+        "servidor": "Banco",
+        "ip": "10.0.0.5",
+        "status_ativo": false,
+        "alertas": 3,
+        "obs": "Atenção"
+    }
+]
