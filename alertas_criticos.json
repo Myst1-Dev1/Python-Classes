@@ -1,0 +1,12 @@
+[
+    {
+        "horario": "10:15",
+        "ip": "10.0.0.5",
+        "erro": "FALHA_AUTENTICACAO"
+    },
+    {
+        "horario": "11:00",
+        "ip": "198.51.100.22",
+        "erro": "FALHA_AUTENTICACAO"
+    }
+]
